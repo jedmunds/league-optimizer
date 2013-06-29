@@ -1,0 +1,357 @@
+---
+items:
+  - abyssal_scepter:
+    - ability_power:                  70.0
+    - armor:                          0.0 
+    - armor_penetration_flat:         0.0 
+    - armor_penetration_percent:      0.0 
+    - attack_damage:                  0.0 
+    - attack_speed:                   0.0 
+    - built_from:                     ["blasting_wand", "negatron_cloak"]
+    - builds_into:                    [""]
+    - champion_restricted:            false
+    - consumable:                     false
+    - consumable_duration:            0.0
+    - cooldown_reduction:             0.0 
+    - cost_upgrade:                   980.0 
+    - cost_total:                     2560.0 
+    - cost_efficiency_analysis:       "Aura must be valued at 137g for Abyssal Scepter to be gold efficient" 
+    - critical_strike_chance:         0.0 
+    - health:                         0.0 
+    - health_regeneration:            0.0 
+    - life_steal:                     0.0 
+    - magic_penetration_flat:         0.0 
+    - magic_penetration_percent:      0.0 
+    - magic_resist:                   45.0 
+    - mana:                           0.0 
+    - mana_regeneration:              0.0 
+    - map:                            "summoners_rift"
+    - movement_speed:                 0.0 
+    - name:                           "Abyssal Scepter"
+    - nicknames:                      ["abyssal", ""]
+    - spell_vamp:                     0.0 
+    - tenacity:                       0.0
+    - tier:                           1
+    - tier_basic:                     false
+    - unique_active:                  false
+    - unique_active_stat_amounts:      [0]
+    - unique_active_stat_modifiers:   [""]
+    - unique_active_text:             ""
+    - unique_aura:                    true
+    - unique_aura_stat_amounts:       [20]
+    - unique_aura_stat_modifiers:     ["magic_penetration"]
+    - unique_aura_text:               "Unique: Reduces the magic resist of nearby enemies by 20 (700 range)"
+    - unique_passive:                 false
+    - unique_passive_stat_amounts:    [0]
+    - unique_passive_stat_modifiers:  [""]
+    - unique_passive_text:            ""
+  - aegis_of_the_legion:
+    - ability_power:                  0.0 
+    - armor:                          20.0 
+    - armor_penetration_flat:         0.0 
+    - armor_penetration_percent:      0.0 
+    - attack_damage:                  0.0 
+    - attack_speed:                   0.0 
+    - built_from:                     ["emblem_of_valor", ""]
+    - builds_into:                    ["runic_bulwark"]
+    - champion_restricted:            false
+    - consumable:                     false
+    - consumable_duration:            0.0
+    - cooldown_reduction:             0.0 
+    - cost_upgrade:                   625.0 
+    - cost_total:                     2150.0 
+    - cost_efficiency_analysis:       "Aegis of the Legion is gold efficient without any ally champion" 
+    - critical_strike_chance:         0.0 
+    - health:                         250.0 
+    - health_regeneration:            0.0 
+    - life_steal:                     0.0 
+    - magic_penetration_flat:         0.0 
+    - magic_penetration_percent:      0.0 
+    - magic_resist:                   20.0 
+    - mana:                           0.0 
+    - mana_regeneration:              0.0 
+    - map:                            "summoners_rift"
+    - movement_speed:                 0.0 
+    - name:                           "Aegis of the Legion"
+    - nicknames:                      ["aegis"]
+    - spell_vamp:                     0.0 
+    - tenacity:                       0.0
+    - tier:                           0.0
+    - tier_basic:                     false
+    - unique_active:                  false
+    - unique_active_stat_amounts:      [0]
+    - unique_active_stat_modifiers:   [""]
+    - unique_active_text:             ""
+    - unique_aura:                    true
+    - unique_aura_stat_amounts:       [10, 15, 10]
+    - unique_aura_stat_modifiers:     ["armor", "magic_resist", "health_regen"]
+    - unique_aura_text:               "Unique - Legion: Nearby allies gain +10 armor, +15 magic resist and +10 health regen. Nearby minions gain an additional 50% armor, magic resist, and health regen (1100 range)"
+    - unique_passive:                 false
+    - unique_passive_stat_amounts:    [0]
+    - unique_passive_stat_modifiers:  [""]
+    - unique_passive_text:            ""
+  - amplifying_tome:
+    - ability_power:                  20.0 
+    - armor:                          0.0 
+    - armor_penetration_flat:         0.0 
+    - armor_penetration_percent:      0.0 
+    - attack_damage:                  0.0 
+    - attack_speed:                   0.0 
+    - built_from:                     [""]
+    - builds_into:                    ["fiendish_codex", "haunting guise", "hextech_revolver", "hextech_sweeper", "kages_lucky_pick", "liandrys_torment", "mejas_soulstealer", "rylais_crystal_scepter", "seekers_armguard", "sheen", "void_staff"]
+    - champion_restricted:            false
+    - consumable:                     false
+    - consumable_duration:            0.0
+    - cooldown_reduction:             0.0 
+    - cost_upgrade:                   435.0 
+    - cost_total:                     435.0 
+    - cost_efficiency_analysis:       "Amplifying tome is the item from which the ability power gold cost is derived, and as such, it deries a value of 21.75 gold per point of ability power" 
+    - critical_strike_chance:         0.0 
+    - health:                         0.0 
+    - health_regeneration:            0.0 
+    - life_steal:                     0.0 
+    - magic_penetration_flat:         0.0 
+    - magic_penetration_percent:      0.0 
+    - magic_resist:                   0.0 
+    - mana:                           0.0 
+    - mana_regeneration:              0.0 
+    - map:                            "summoners_rift"
+    - movement_speed:                 0.0 
+    - name:                           "Amplifying Tome"
+    - nicknames:                      ["amp tome", "tome"]
+    - spell_vamp:                     0.0 
+    - tenacity:                       0.0
+    - tier:                           0.0
+    - tier_basic:                     false
+    - unique_active:                  false
+    - unique_active_stat_amounts:      [0]
+    - unique_active_stat_modifiers:   [""]
+    - unique_active_text:             ""
+    - unique_aura:                    false
+    - unique_aura_stat_amounts:       [0]
+    - unique_aura_stat_modifiers:     [""]
+    - unique_aura_text:               ""
+    - unique_passive:                 false
+    - unique_passive_stat_amounts:    [0]
+    - unique_passive_stat_modifiers:  [""]
+    - unique_passive_text:            ""
+  - archangels_staff:
+  - athenes_unholy_grail:
+  - atmas_impaler:
+  - augment_death:
+  - augment_gravity:
+  - augment_power:
+  - avarice_blade:
+  - bf_sword:
+  - banner_of_command:
+  - banshees_veil:
+  - berserkers_greaves:
+  - bilgewater_cutlass:
+  - blackfire_torch:
+  - blade_of_the_ruined_king:
+  - blasting_wand:
+  - bonetooth_necklace:
+  - boots_of_mobility:
+  - boots_of_speed:
+  - boots_of_swiftness:
+  - brawlers_gloves:
+  - catalyst_the_protector:
+  - chain_vest:
+  - chalice_of_harmony:
+  - cloak_of_agility:
+  - cloth_armor:
+  - crystaline_flask:
+  - dagger:
+  - deathfire_grasp:
+  - dorans_blade:
+  - dorans_ring:
+  - dorans_shield:
+  - elisas_miracle:
+  - elixir_of_brilliance:
+  - elixir_of_fortitude:
+  - emblem_of_valor:
+  - enchantment_alacrity:
+  - enchantment_captain:
+  - enchantment_distortion:
+  - enchantment_furor:
+  - enchantment_homeguard:
+  - entropy:
+  - executioners_calling:
+  - faerie_charm:
+  - fiendish_codex:
+  - frozen_heart:
+  - frozen_mallet:
+  - giants_belt:
+  - glacial_shroud:
+  - grezs_spectral_lantern:
+  - guardian_angel:
+  - guinsoos_rageblade:
+  - haunting_guise:
+  - health_potion:
+  - hexdrinker:
+  - hextech_gunblade:
+  - hextech_revolver:
+  - hextech_sweeper:
+  - hunters_machete:
+  - iceborn_gauntlet:
+  - ichor_of_illumination:
+  - ichor_of_rage:
+  - infinity_edge:
+  - ionian_boots_of_lucidity:
+  - kages_lucky_pick:
+  - kindlegem:
+  - kitaes_bloodrazor:
+  - last_whisper:
+  - liandrys_torment:
+  - lich_bane:
+  - locket_of_the_iron_solari:
+  - long_sword:
+  - madreds_razors:
+  - mana_manipulator:
+  - mana_potion:
+  - manamune:
+  - maw_of_malmortius:
+  - mejais_soulstealer:
+  - mercurial_scimitar:
+  - mercurys_treads:
+  - mikaels_crucible:
+  - morellonomicon:
+  - muramana:
+  - nashors_tooth:
+  - needlessly_large_rod:
+  - negatron_cloak:
+  - ninja_tabi:
+  - null_magic_mantle:
+  - odyns_veil:
+  - ohmwrecker:
+  - oracles_elixir:
+  - oracles_extract:
+  - overlords_bloodmail:
+  - pahge:
+  - phantom_dancer:
+  - philosophers_stone:
+  - pickaxe:
+  - prospectors_blade:
+  - prospectors_ring:
+  - quicksilver_sash:
+  - rabadons_deathcap:
+  - randiuns_omen:
+  - ravenous_hydra:
+  - recurve_bow:
+  - rejuvenation_bead:
+  - rod_of_ages:
+  - ruby_crystal:
+  - ruby_sightstone:
+  - runans_hurricaine:
+  - runic_bulwark:
+  - rylais_crystal_scepter:
+  - sanguine_blade:
+  - sapphire_crystal:
+  - seraphs_embrace:
+  - shard_of_true_ice:
+  - seekers_armguard:
+  - sheen:
+  - shurelyas_reverie:
+  - sight_ward:
+  - sightstone:
+  - sorcerers_shoes:
+  - spirit_stone:
+  - spirit_visage:
+  - spirit_of_the_ancient_golem:
+  - spirit_of_the_elder_lizard:
+  - spirit_of_the_spectral_wraith:
+  - statikk_shiv:
+  - stinger:
+  - sunfire_cape:
+  - sword_of_the_divine:
+  - sword_of_the_occult:
+  - tear_of_the_goddess:
+  - the_black_cleaver:
+  - the_bloodthirster:
+  - the_brutalizer:
+  - the_hex_core:
+  - the_lightbringer:
+  - thornmail:
+  - tiamat:
+  - trinity_force:
+  - twin_shadows:
+  - vampiric_scepter:
+  - vision_ward:
+  - void_staff:
+  - wardens_mail:
+  - warmogs_armor:
+  - will_of_the_ancients:
+  - wits_end:
+  - wooglets_witchcap:
+  - wriggles_lantern:
+  - yomuus_ghostblade:
+  - zeal:
+  - zekes_herald:
+  - zephyr:
+  - zhonyas_hourglass:
+
+item_values:
+  - ability_power:                  0.0
+  - armor:                          0.0
+  - armor_penetration_flat:         0.0
+  - armor_penetration_percent:      0.0
+  - attack_damage:                  0.0
+  - attack_speed:                   0.0
+  - built_from:                     ["item1", "item2"]
+  - builds_into:                    ["item1", "item2"]
+  - champion_restricted:            false
+  - consumable:                     false
+  - consumable_duration:            0.0
+  - cooldown_reduction:             0.0
+  - cost_upgrade:                   0.0
+  - cost_total:                     0.0
+  - cost_efficiency_analysis:       "wiki analysis"
+  - critical_strike_chance:         0.0
+  - health:                         0.0
+  - health_regeneration:            0.0
+  - life_steal:                     0.0
+  - magic_penetration_flat:         0.0
+  - magic_penetration_percent:      0.0
+  - magic_resist:                   0.0
+  - mana:                           0.0
+  - mana_regeneration:              0.0
+  - map:                            "summoners_rift"
+  - movement_speed:                 0.0
+  - name:                           "name"
+  - nicknames:                      ["name1", "name2"]
+  - spell_vamp:                     0.0
+  - tenacity:                       0
+  - tier:                           0
+  - tier_basic:                     false
+  - unique_active:                  false
+  - unique_active_stat_amounts:     [0]
+  - unique_active_stat_modifiers:   ["ability_power", "attack_speed"]
+  - unique_active_text:             "text"
+  - unique_aura:                    false
+  - unique_aura_stat_amounts:       [0]
+  - unique_aura_stat_modifiers:     ["ability_power", "attack_speed"]
+  - unique_aura_text:               "text"
+  - unique_passive:                 false
+  - unique_passive_stat_amounts:    [0]
+  - unique_passive_stat_modifiers:  ["ability_power", "attack_speed"]
+  - unique_passive_text:            "text"
+stat_costs:
+  - ability_power:              21.75
+  - armor:                      20.0
+  - armor_penetration_flat:     15.0
+  - armor_penetration_percent:  20.0
+  - attack_damage:              40.0
+  - attack_speed:               33.33
+  - cooldown_reduction:         32.22
+  - critical_strike_chance:     50.0
+  - health:                     2.64
+  - health_regeneration:        36.0
+  - life_steal:                 40.0
+  - magic_penetration_flat:     30.0
+  - magic_penetratin_percent:   22.0
+  - magic_resist:               20.0
+  - mana:                       2.0
+  - mana_regeneration:          60.0
+  - movement_speed:             13.0
+  - spell_vamp:                 27.5
+  - tenacity:                   12.0
