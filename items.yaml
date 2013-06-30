@@ -28,7 +28,7 @@ items:
     - map:                            "summoners_rift"
     - movement_speed:                 0.0 
     - name:                           "Abyssal Scepter"
-    - nicknames:                      ["abyssal", ""]
+    - nicknames:                      ["abyssal"]
     - spell_vamp:                     0.0 
     - tenacity:                       0.0
     - tier:                           1
@@ -136,7 +136,93 @@ items:
     - unique_passive_stat_modifiers:  [""]
     - unique_passive_text:            ""
   - archangels_staff:
+    - ability_power:                  60.0
+    - armor:                          0.0 
+    - armor_penetration_flat:         0.0 
+    - armor_penetration_percent:      0.0 
+    - attack_damage:                  0.0 
+    - attack_speed:                   0.0 
+    - built_from:                     ["tear_of_the_goddess", "blasting_wand"]
+    - builds_into:                    [""]
+    - champion_restricted:            false
+    - consumable:                     false
+    - consumable_duration:            0.0
+    - cooldown_reduction:             0.0 
+    - cost_upgrade:                   1140.0 
+    - cost_total:                     2700.0 
+    - cost_efficiency_analysis:       "Archangel's Staff is gold efficient when the champion's maximum mana is at least 606. Alternatively, mana charge must have stored at least 88 bonus mana for Archangel's Staff to be gold efficient"
+    - critical_strike_chance:         0.0 
+    - health:                         0.0 
+    - health_regeneration:            0.0 
+    - life_steal:                     0.0 
+    - magic_penetration_flat:         0.0 
+    - magic_penetration_percent:      0.0 
+    - magic_resist:                   0.0 
+    - mana:                           250.0 
+    - mana_regeneration:              2.0 
+    - map:                            "summoners_rift"
+    - movement_speed:                 0.0 
+    - name:                           "Archangel's Staff"
+    - nicknames:                      ["archangels"]
+    - spell_vamp:                     0.0 
+    - tenacity:                       0.0
+    - tier:                           2.0
+    - tier_basic:                     false
+    - unique_active:                  false
+    - unique_active_stat_amounts:      [0]
+    - unique_active_stat_modifiers:   [""]
+    - unique_active_text:             ""
+    - unique_aura:                    false
+    - unique_aura_stat_amounts:       [0]
+    - unique_aura_stat_modifiers:     [""]
+    - unique_aura_text:               ""
+    - unique_passive:                 true
+    - unique_passive_stat_amounts:    [0.03, 500]
+    - unique_passive_stat_modifiers:  ["ability_power", "mana"]
   - athenes_unholy_grail:
+    - ability_power:                  60.0
+    - armor:                          0.0 
+    - armor_penetration_flat:         0.0 
+    - armor_penetration_percent:      0.0 
+    - attack_damage:                  0.0 
+    - attack_speed:                   0.0 
+    - built_from:                     ["fiendish_codex", "chalice_of_harmony"]
+    - builds_into:                    [""]
+    - champion_restricted:            false
+    - consumable:                     false
+    - consumable_duration:            0.0
+    - cooldown_reduction:             0.0 
+    - cost_upgrade:                   1140.0 
+    - cost_total:                     2700.0 
+    - cost_efficiency_analysis:       "Archangel's Staff is gold efficient when the champion's maximum mana is at least 606. Alternatively, mana charge must have stored at least 88 bonus mana for Archangel's Staff to be gold efficient"
+    - critical_strike_chance:         0.0 
+    - health:                         0.0 
+    - health_regeneration:            0.0 
+    - life_steal:                     0.0 
+    - magic_penetration_flat:         0.0 
+    - magic_penetration_percent:      0.0 
+    - magic_resist:                   0.0 
+    - mana:                           250.0 
+    - mana_regeneration:              2.0 
+    - map:                            "summoners_rift"
+    - movement_speed:                 0.0 
+    - name:                           "Archangel's Staff"
+    - nicknames:                      ["archangels"]
+    - spell_vamp:                     0.0 
+    - tenacity:                       0.0
+    - tier:                           2.0
+    - tier_basic:                     false
+    - unique_active:                  false
+    - unique_active_stat_amounts:      [0]
+    - unique_active_stat_modifiers:   [""]
+    - unique_active_text:             ""
+    - unique_aura:                    false
+    - unique_aura_stat_amounts:       [0]
+    - unique_aura_stat_modifiers:     [""]
+    - unique_aura_text:               ""
+    - unique_passive:                 true
+    - unique_passive_stat_amounts:    [0.03, 500]
+    - unique_passive_stat_modifiers:  ["ability_power", "mana"]
   - atmas_impaler:
   - augment_death:
   - augment_gravity:
@@ -320,7 +406,7 @@ item_values:
   - name:                           "name"
   - nicknames:                      ["name1", "name2"]
   - spell_vamp:                     0.0
-  - tenacity:                       0
+  - tenacity:                       0.0
   - tier:                           0
   - tier_basic:                     false
   - unique_active:                  false
