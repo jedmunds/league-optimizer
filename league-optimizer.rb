@@ -50,19 +50,19 @@ begin
     items.each do |item|
      
       values = item.values[0]
-      nickname = values[27]["nicknames"][0]
-      name = values[26]["name"]
-      key_val = item.keys[0] 
+ #     nickname = values[27]["nicknames"]
+ #     name = values[26]["name"]
+ #     key_val = item.keys[0] 
 
-      if nickname == string or name == string or key_val == string
-        values.each do |value|
-          if value.values[0].is_a? Float
-            if @stats[value.keys[0]].nil? == false
-              @stats[value.keys[0]] += value.values[0]
-            end
-          end
-        end
-      end
+ #     if nickname == string or name == string or key_val == string
+ #       values.each do |value|
+ #         if value.values[0].is_a? Float
+ #           if @stats[value.keys[0]].nil? == false
+ #             @stats[value.keys[0]] += value.values[0]
+ #           end
+ #         end
+ #       end
+ #     end
     end
   end
 
