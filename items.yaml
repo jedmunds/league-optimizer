@@ -17,6 +17,7 @@ items:
     - cost_total:                     2560.0 
     - cost_efficiency_analysis:       "Aura must be valued at 137g for Abyssal Scepter to be gold efficient" 
     - critical_strike_chance:         0.0 
+    - critical_strike_damage:         0.0
     - health:                         0.0 
     - health_regeneration:            0.0 
     - life_steal:                     0.0 
@@ -39,7 +40,7 @@ items:
     - unique_active_text:             ""
     - unique_aura:                    true
     - unique_aura_stat_amounts:       [20]
-    - unique_aura_stat_modifiers:     ["magic_penetration"]
+    - unique_aura_stat_modifiers:     ["magic_penetration", "base"]
     - unique_aura_text:               "Unique: Reduces the magic resist of nearby enemies by 20 (700 range)"
     - unique_passive:                 false
     - unique_passive_stat_amounts:    [0]
@@ -52,7 +53,7 @@ items:
     - armor_penetration_percent:      0.0 
     - attack_damage:                  0.0 
     - attack_speed:                   0.0 
-    - built_from:                     ["emblem_of_valor", ""]
+    - built_from:                     ["emblem_of_valor", "ruby_crystal", "null_magic_mantle"]
     - builds_into:                    ["runic_bulwark"]
     - champion_restricted:            false
     - consumable:                     false
@@ -62,6 +63,7 @@ items:
     - cost_total:                     2150.0 
     - cost_efficiency_analysis:       "Aegis of the Legion is gold efficient without any ally champion" 
     - critical_strike_chance:         0.0 
+    - critical_strike_damage:         0.0
     - health:                         250.0 
     - health_regeneration:            0.0 
     - life_steal:                     0.0 
@@ -84,7 +86,7 @@ items:
     - unique_active_text:             ""
     - unique_aura:                    true
     - unique_aura_stat_amounts:       [10, 15, 10]
-    - unique_aura_stat_modifiers:     ["armor", "magic_resist", "health_regen"]
+    - unique_aura_stat_modifiers:     ["armor", "base", "magic_resist", "base", "health_regen", "base"]
     - unique_aura_text:               "Unique - Legion: Nearby allies gain +10 armor, +15 magic resist and +10 health regen. Nearby minions gain an additional 50% armor, magic resist, and health regen (1100 range)"
     - unique_passive:                 false
     - unique_passive_stat_amounts:    [0]
@@ -107,6 +109,7 @@ items:
     - cost_total:                     435.0 
     - cost_efficiency_analysis:       "Amplifying tome is the item from which the ability power gold cost is derived, and as such, it deries a value of 21.75 gold per point of ability power" 
     - critical_strike_chance:         0.0 
+    - critical_strike_damage:         0.0
     - health:                         0.0 
     - health_regeneration:            0.0 
     - life_steal:                     0.0 
@@ -143,7 +146,7 @@ items:
     - attack_damage:                  0.0 
     - attack_speed:                   0.0 
     - built_from:                     ["tear_of_the_goddess", "blasting_wand"]
-    - builds_into:                    [""]
+    - builds_into:                    ["seraphs_embrace"]
     - champion_restricted:            false
     - consumable:                     false
     - consumable_duration:            0.0
@@ -152,6 +155,7 @@ items:
     - cost_total:                     2700.0 
     - cost_efficiency_analysis:       "Archangel's Staff is gold efficient when the champion's maximum mana is at least 606. Alternatively, mana charge must have stored at least 88 bonus mana for Archangel's Staff to be gold efficient"
     - critical_strike_chance:         0.0 
+    - critical_strike_damage:         0.0
     - health:                         0.0 
     - health_regeneration:            0.0 
     - life_steal:                     0.0 
@@ -178,7 +182,8 @@ items:
     - unique_aura_text:               ""
     - unique_passive:                 true
     - unique_passive_stat_amounts:    [0.03, 500]
-    - unique_passive_stat_modifiers:  ["ability_power", "mana"]
+    - unique_passive_stat_modifiers:  ["ability_power", "mana", "mana", "base"]
+    - unique_passive_text:            "Unique Passive - Insight: Gain ability power equal to 3% of your maximum mana. Unique Passive - Mana Charge: Each time you cast a spell or spend mana, you gain 6 maximum mana (3 second cooldown) Bonus caps at +750 bonus mana."
   - athenes_unholy_grail:
     - ability_power:                  60.0
     - armor:                          0.0 
@@ -192,10 +197,57 @@ items:
     - consumable:                     false
     - consumable_duration:            0.0
     - cooldown_reduction:             0.0 
+    - cost_upgrade:                   900.0 
+    - cost_total:                     2600.0 
+    - cost_efficiency_analysis:       "Athene's Unholy Grail is gold efficient even without it's passives"
+    - critical_strike_chance:         0.0 
+    - critical_strike_damage:         0.0
+    - health:                         0.0 
+    - health_regeneration:            0.0 
+    - life_steal:                     0.0 
+    - magic_penetration_flat:         0.0 
+    - magic_penetration_percent:      0.0 
+    - magic_resist:                   0.0 
+    - mana:                           0.0 
+    - mana_regeneration:              3.0 
+    - map:                            "summoners_rift"
+    - movement_speed:                 0.0 
+    - name:                           "Athene's Unholy Grail"
+    - nicknames:                      ["athenes"]
+    - spell_vamp:                     0.0 
+    - tenacity:                       0.0
+    - tier:                           2.0
+    - tier_basic:                     false
+    - unique_active:                  false
+    - unique_active_stat_amounts:      [0]
+    - unique_active_stat_modifiers:   [""]
+    - unique_active_text:             ""
+    - unique_aura:                    false
+    - unique_aura_stat_amounts:       [0]
+    - unique_aura_stat_modifiers:     [""]
+    - unique_aura_text:               ""
+    - unique_passive:                 true
+    - unique_passive_stat_amounts:    [0.5]
+    - unique_passive_stat_modifiers:  ["mana_regeneration", "mana_regeneration"]
+    - unique_passive_text:            ""
+  - atmas_impaler:
+    - ability_power:                  60.0
+    - armor:                          0.0 
+    - armor_penetration_flat:         0.0 
+    - armor_penetration_percent:      0.0 
+    - attack_damage:                  0.0 
+    - attack_speed:                   0.0 
+    - built_from:                     ["tear_of_the_goddess", "blasting_wand"]
+    - builds_into:                    [""]
+    - champion_restricted:            false
+    - consumable:                     false
+    - consumable_duration:            0.0
+    - cooldown_reduction:             0.0 
     - cost_upgrade:                   1140.0 
     - cost_total:                     2700.0 
     - cost_efficiency_analysis:       "Archangel's Staff is gold efficient when the champion's maximum mana is at least 606. Alternatively, mana charge must have stored at least 88 bonus mana for Archangel's Staff to be gold efficient"
     - critical_strike_chance:         0.0 
+    - critical_strike_damage:         0.0
     - health:                         0.0 
     - health_regeneration:            0.0 
     - life_steal:                     0.0 
@@ -222,8 +274,8 @@ items:
     - unique_aura_text:               ""
     - unique_passive:                 true
     - unique_passive_stat_amounts:    [0.03, 500]
-    - unique_passive_stat_modifiers:  ["ability_power", "mana"]
-  - atmas_impaler:
+    - unique_passive_stat_modifiers:  ["ability_power", "mana", "mana", "mana"]
+    - unique_passive_text:            ""
   - augment_death:
   - augment_gravity:
   - augment_power:
@@ -393,6 +445,7 @@ item_values:
   - cost_total:                     0.0
   - cost_efficiency_analysis:       "wiki analysis"
   - critical_strike_chance:         0.0
+  - critical_strike_damage:         0.0
   - health:                         0.0
   - health_regeneration:            0.0
   - life_steal:                     0.0
