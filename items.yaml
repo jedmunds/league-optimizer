@@ -649,22 +649,22 @@ items:
     - armor:                          0.0 
     - armor_penetration_flat:         0.0 
     - armor_penetration_percent:      0.0 
-    - attack_damage:                  0.0 
+    - attack_damage:                  25.0 
     - attack_speed:                   0.0 
-    - built_from:                     [""]
-    - builds_into:                    ["", ""]
+    - built_from:                     ["long_sword", "vampiric_scepter"]
+    - builds_into:                    ["blade_of_the_ruined_king", "hextech_gunblade"]
     - champion_restricted:            false
     - consumable:                     false
     - consumable_duration:            0.0
     - cooldown_reduction:             0.0 
-    - cost_upgrade:                   0.0 
-    - cost_total:                     0.0 
-    - cost_efficiency_analysis:       ""
+    - cost_upgrade:                   200.0 
+    - cost_total:                     1400.0 
+    - cost_efficiency_analysis:       "Bilgewater Cutlass is gold efficient even without active."
     - critical_strike_chance:         0.0 
     - critical_strike_damage:         0.0
     - health:                         0.0 
     - health_regeneration:            0.0 
-    - life_steal:                     0.0 
+    - life_steal:                     12.0 
     - magic_penetration_flat:         0.0 
     - magic_penetration_percent:      0.0 
     - magic_resist:                   0.0 
@@ -672,16 +672,16 @@ items:
     - mana_regeneration:              0.0 
     - map:                            "summoners_rift"
     - movement_speed:                 0.0 
-    - name:                           ""
-    - nicknames:                      [""]
+    - name:                           "Bilgewater Cutlass"
+    - nicknames:                      ["cutlass", "bilgewater"]
     - spell_vamp:                     0.0 
     - tenacity:                       0.0
     - tier:                           2.0
     - tier_basic:                     false
-    - unique_active:                  false
+    - unique_active:                  true
     - unique_active_stat_amounts:      [0]
     - unique_active_stat_modifiers:   [""]
-    - unique_active_text:             ""
+    - unique_active_text:             "Unique Active: Deals 100 magic damage and slows the target enemy champion's movement speed by 25% for 2 seconds. 90 second cooldown. 500 range."
     - unique_aura:                    false
     - unique_aura_stat_amounts:       [0]
     - unique_aura_stat_modifiers:     [""]
@@ -691,14 +691,14 @@ items:
     - unique_passive_stat_modifiers:  [""]
     - unique_passive_text:            ""
   - blackfire_torch:
-    - ability_power:                  0.0
+    - ability_power:                  80.0
     - armor:                          0.0 
     - armor_penetration_flat:         0.0 
     - armor_penetration_percent:      0.0 
     - attack_damage:                  0.0 
     - attack_speed:                   0.0 
-    - built_from:                     [""]
-    - builds_into:                    ["", ""]
+    - built_from:                     ["kages_lucky_pick", "fiendish_codex", "haunting_guise"]
+    - builds_into:                    [""]
     - champion_restricted:            false
     - consumable:                     false
     - consumable_duration:            0.0
@@ -708,7 +708,7 @@ items:
     - cost_efficiency_analysis:       ""
     - critical_strike_chance:         0.0 
     - critical_strike_damage:         0.0
-    - health:                         0.0 
+    - health:                         250.0 
     - health_regeneration:            0.0 
     - life_steal:                     0.0 
     - magic_penetration_flat:         0.0 
@@ -716,10 +716,10 @@ items:
     - magic_resist:                   0.0 
     - mana:                           0.0 
     - mana_regeneration:              0.0 
-    - map:                            "summoners_rift"
+    - map:                            [""]
     - movement_speed:                 0.0 
-    - name:                           ""
-    - nicknames:                      [""]
+    - name:                           "Blackfire Torch"
+    - nicknames:                      ["torch", "blackfire torch"]
     - spell_vamp:                     0.0 
     - tenacity:                       0.0
     - tier:                           2.0
@@ -732,19 +732,19 @@ items:
     - unique_aura_stat_amounts:       [0]
     - unique_aura_stat_modifiers:     [""]
     - unique_aura_text:               ""
-    - unique_passive:                 false
-    - unique_passive_stat_amounts:    [0]
-    - unique_passive_stat_modifiers:  [""]
-    - unique_passive_text:            ""
+    - unique_passive:                 true
+    - unique_passive_stat_amounts:    [15, 20]
+    - unique_passive_stat_modifiers:  ["magic_penetration", "base", "cooldown_reduction", "base"]
+    - unique_passive_text:            "Unique: Your spells burn for an additional 3.5% of the target champion's maximum health in magic damage over 2 seconds. Each second burned consumes a charge. Up to 18 charges are generated when not in use."
   - blade_of_the_ruined_king:
     - ability_power:                  0.0
     - armor:                          0.0 
     - armor_penetration_flat:         0.0 
     - armor_penetration_percent:      0.0 
-    - attack_damage:                  0.0 
-    - attack_speed:                   0.0 
-    - built_from:                     [""]
-    - builds_into:                    ["", ""]
+    - attack_damage:                  25.0 
+    - attack_speed:                   40.0 
+    - built_from:                     ["bilgewater_cutlass", "dagger", "dagger"]
+    - builds_into:                    [""]
     - champion_restricted:            false
     - consumable:                     false
     - consumable_duration:            0.0
@@ -756,7 +756,7 @@ items:
     - critical_strike_damage:         0.0
     - health:                         0.0 
     - health_regeneration:            0.0 
-    - life_steal:                     0.0 
+    - life_steal:                     15.0 
     - magic_penetration_flat:         0.0 
     - magic_penetration_percent:      0.0 
     - magic_resist:                   0.0 
@@ -764,15 +764,15 @@ items:
     - mana_regeneration:              0.0 
     - map:                            "summoners_rift"
     - movement_speed:                 0.0 
-    - name:                           ""
-    - nicknames:                      [""]
+    - name:                           "Blade of the Ruined King"
+    - nicknames:                      ["ruined king", "blade"]
     - spell_vamp:                     0.0 
     - tenacity:                       0.0
     - tier:                           2.0
     - tier_basic:                     false
-    - unique_active:                  false
-    - unique_active_stat_amounts:      [0]
-    - unique_active_stat_modifiers:   [""]
+    - unique_active:                  true
+    - unique_active_stat_amounts:     [0]
+    - unique_active_stat_modifiers:   ["movement_speed", "movement_speed", "health", "health"]
     - unique_active_text:             ""
     - unique_aura:                    false
     - unique_aura_stat_amounts:       [0]
